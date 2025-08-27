@@ -49,11 +49,13 @@ This project was developed in multiple stages, reflecting a complete end-to-end 
    Finally, the project was deployed as a **Streamlit app** on the **Streamlit Community Cloud**, allowing users to interact with the tracker, explore visualizations, and see anomalies in real time.
 
 ## Notebooks
-You can explore the detailed analysis and experimentation in the following notebooks:  
+You can explore the detailed analysis and experimentation in the following notebook:  
 
-- [Data Generation & Cleaning](Notebooks/personal_finance_tracker_with_anomaly_detection.py)  
+- [Data Generation & Cleaning](notebooks/personal_finance_tracker_with_anomaly_detection.py)  
 
-
+## **Visualization** 
+ ## Amount vs Date (Anomalies highlighted)
+   
 
 
 
