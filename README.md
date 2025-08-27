@@ -7,7 +7,7 @@ A Python-based finance tracker using Pandas and anomaly detection techniques to 
 The **Personal Finance Tracker with Anomaly Detection** is a Python-based application designed to help users take control of their personal finances.  
 It allows users to monitor their income, expenses, and savings while providing actionable insights through interactive visualizations.  
 
-The project goes beyond basic finance tracking by implementing **anomaly detection** techniques — including statistical methods like **Z-score** and machine learning methods like **Isolation Forest** — to identify unusual transactions or spending patterns.  
+The project goes beyond basic finance tracking by implementing **anomaly detection** techniques, including statistical methods like **Z-score** and machine learning methods like **Isolation Forest**, to identify unusual transactions or spending patterns.  
 
 The app uses a **synthetic dataset** generated with Python's Faker library to simulate realistic financial transactions, ensuring that users can explore the tool even without real data. Visualizations are built using **Plotly** and **Seaborn**, providing intuitive charts for monthly trends, expense breakdowns by category, and highlighting potential anomalies.  
 
