@@ -57,7 +57,7 @@ You can explore the detailed analysis and experimentation in the following noteb
 ## 📊 Visualizations
 
 ### 1. Amount vs Date (Anomalies highlighted)
-![Amount vs Date](Visualization/transactions_over_time.png)  
+![Amount vs Date](Visualization/Transactions_Over_Time.png)  
 **Insight:** 
 1. Red dots show anomalies detected by Isolation Forest.
 2. These unusual transactions are scattered across time, showing no specific monthly pattern.
@@ -74,6 +74,16 @@ You can explore the detailed analysis and experimentation in the following noteb
 4. The two methods partially overlap in anomaly detection.
 5. Points beyond z=3 are extreme but may not always match ISO anomalies.
 
+---
+
+### 3. Category vs Anomaly_Zscore
+![Category vs Anomaly_Zscore](Visualization/Category_vs_Anomaly_Zscore.png)
+**Insight**
+1. Z_score flagged anomalies are exclusively in the Income category.
+2. No anomalies detected in spending categories like food, shopping, or transportation.
+3. High-income values significantly deviate from the dataset's average transaction behavior.
+
+---
    
 
 
