@@ -35,7 +35,7 @@ This project was developed in multiple stages, reflecting a complete end-to-end 
    Using Python's **Faker** library, a synthetic dataset of financial transactions was generated. The dataset includes multiple categories such as food, rent, travel, shopping, and utilities, simulating realistic income and expense patterns.
 
 2. **Data Cleaning and Preparation:**  
-   The raw synthetic data was cleaned and preprocessed to handle missing values, ensure consistent formatting, and prepare it for analysis. The cleaned dataset (`personal_finance_clean.csv`) serves as the foundation for all visualizations and anomaly detection.
+   The raw synthetic data was cleaned and preprocessed to handle missing values, ensure consistent formatting, and prepare it for analysis. The cleaned dataset (personal_finance_clean.csv) serves as the foundation for all visualizations and anomaly detection.
 
 3. **Anomaly Detection Implementation:**  
    Two methods were implemented to detect unusual transactions:  
