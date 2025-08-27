@@ -54,7 +54,9 @@ You can explore the detailed analysis and experimentation in the following noteb
 - [Data Generation & Cleaning](notebooks/personal_finance_tracker_with_anomaly_detection.py)  
 
 ## **Visualization** 
- ## Amount vs Date (Anomalies highlighted)
+1. Amount vs Date (Anomalies highlighted)
+   ![Dashboard Overview](Visualization/transactions_over_time.png)
+
    
 
 
