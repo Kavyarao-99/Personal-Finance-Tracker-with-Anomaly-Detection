@@ -54,8 +54,25 @@ You can explore the detailed analysis and experimentation in the following noteb
 - [Data Generation & Cleaning](notebooks/personal_finance_tracker_with_anomaly_detection.py)  
 
 ## **Visualization** 
-1. Amount vs Date (Anomalies highlighted)
-   ![Dashboard Overview](Visualization/transactions_over_time.png)
+## 📊 Visualizations
+
+### 1. Amount vs Date (Anomalies highlighted)
+![Amount vs Date](Visualization/transactions_over_time.png)  
+**Insight:** 
+1. Red dots show anomalies detected by Isolation Forest.
+2. These unusual transactions are scattered across time, showing no specific monthly pattern.
+3. The Isolation Forest algorithm effectively flags outliers across the full range of dates, not just clusters.
+
+---
+
+### 2. Amount_Zscore vs Anomaly_ISO
+![Z-score vs Isolation Forest](Visualization/amount_zscore_vs_anomaly_iso.png)  
+**Insight:**
+1. Most transactions cluster around the z-score between 0 and 1.
+2. Some Z-score points are flagged as anomalies (Tiny charges).
+3. High Z-scores often correspond to anomalies, but not always.
+4. The two methods partially overlap in anomaly detection.
+5. Points beyond z=3 are extreme but may not always match ISO anomalies.
 
    
 
